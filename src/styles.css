@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(143,188,143);
+}
+
+.breed-select {
+    margin: 30px;
+    min-width: 280px;
+    font-size: 40px;
+    color: #DB7093;
+}
+
+.loader {
+    font-size: 25px;
+    color: #191970;
+    margin: 30px 30px;
+    display: block;
+}
+
+.error {
+    font-size: 25px;
+    color: #ff3d00;
+    margin: 45px 30px;
+    display: none;
+}
+
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cat-info {
+    display: none;
+    justify-content: space-around;
+    align-items: left;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.js-cat-img {
+    width: 400px;
+    height: 100%;
+}
+
+.js-cat-description {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #5353c5;
+}
